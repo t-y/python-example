@@ -5,6 +5,11 @@ import time
 import random
 import threading
 
+# web压力测试代码
+# author:ty
+# date:2011-12-30
+
+
 socket.setdefaulttimeout(15)
 
 class WebRequest(threading.Thread):
